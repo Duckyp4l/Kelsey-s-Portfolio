@@ -1,0 +1,280 @@
+body {
+    /* display: relative; */
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+    opacity: 0.8;
+    background-image: radial-gradient(#7CC6E4 0.8px, #ffffff 0.8px);
+    background-size: 16px 16px;
+    /* z-index: -1; */
+}
+
+.main-header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #7CC6E4;
+    height: 40px;
+    align-items: center;
+    padding-inline: 15px;
+    color: #ffffff;
+    font-family: Quantico;
+    border-bottom-style: solid;
+    border-color: #5abee6;
+}
+
+nav {
+    width: 20vw;
+    /* background-color: antiquewhite; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+nav a {
+    text-decoration: none;
+    font-size: 15px;
+    color: #ffffff;
+}
+
+/* WELCOME SECTION */
+
+.welcome-section {
+    width: 100%;
+    height: 600px;
+    /* background-color: #ffffff; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.welcome-container {
+    width: 70%;
+    /* background-color: rgb(29, 91, 146); */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.welcome-container h1 {
+    font-family: Quantico;
+    color: #A8D641;
+    font-size: 8vw;
+}
+
+hr {
+    margin-inline: 20px;
+    border-color: #7CC6E4;
+    /* color: #7CC6E4; */
+}
+
+/* PROJECT SECTION */
+
+.projects-section {
+    width: 100%;
+    height: 700px;
+    /* background-color: #A8D641; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.projects-container {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#project-box {
+    width: 400px;
+    height: 600px;
+    /* background-color: #7CC6E4; */
+    border: 3px solid #073f55;
+    /* margin: 10px; */
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+#project-x {
+    width: 400px;
+    height: 30px;
+    background-color: #ffffff;
+    border-bottom: 3px solid #073f55;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: Quantico;
+    /* padding: 3px; */
+}
+
+#project-image {
+    margin-top: 30px;
+    width: 300px;
+    height: 140px;
+}
+
+.container1 {
+    background-color: #A8D641;
+    /* display: flex; */
+    /* justify-content: space-between; */
+}
+
+.container2 {
+    background-color: #7CC6E4;
+}
+
+.container3 {
+    background-color: #ffffff;
+}
+
+.project-text {
+    width: 300px;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    /* align-items: center; */
+    /* background-color: #5abee6; */
+    margin-top: 80px;
+    color: #161941;
+    font-family: Quantico;
+
+}
+
+/* INTRO SECTION */
+
+.intro-section {
+    width: 100%;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: #5abee6; */
+}
+
+.intro-container {
+    width: 1600px;
+    height: fit-content;
+    display: flex;
+    padding: 3px;
+    margin: 90px;
+    background-color: #7CC6E4;
+    display: flex;
+    flex-direction: column;
+}
+
+.intro-1 {
+    width: auto;
+    height: 30px;
+    max-height: 100px;
+    background-color: #ffffff;
+    font-size: 10px;
+    padding-right: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    font-family: Quantico;
+}
+
+.intro-content {
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    margin-top: 3px;
+}
+
+
+.intro-2 {
+    width: 700px;
+    height: 465px;
+    background-color: #073f55;
+    margin-right: 3px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: Quantico;
+    padding: 20px;
+    color: white;
+}
+
+
+
+.intro-3 {
+    width: 700px;
+    height: 465px;
+    background-color: #A8D641;
+    /* text-indent: 20px; */
+    padding: 20px;
+    font-family: Quantico;
+}
+
+/* STUDIES SECTION */
+
+.courses-section {
+    margin-block: 90px;
+    /* width: 1300px; */
+    height: 600px;
+    /* background-color: #293410; */
+    display: flex;
+    padding: 50px;
+    display: flex;
+    align-items: center;
+    /* justify-content: space-evenly; */
+    flex-direction: column;
+}
+
+.courses-section h1 {
+    font-size: 50px;
+    font-family: Quantico;
+    color: #A8D641;
+    /* background-color: #073f55; */
+}
+
+.courses-content {
+    /* font-size: 30px; */
+    width: 1300px;
+    height: 500px;
+    /* background-color: aqua; */
+    font-family: Quantico;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.courses-1 {
+    width: 400px;
+    height: fit-content;
+    margin-right: 40px;
+    background-color: #A8D641;
+    padding: 10px;
+}
+
+.courses-2 {
+    width: 400px;
+    height: fit-content;
+    background-color: #073f55;
+    padding: 10px;
+}
+
+#school-name {
+    /* height: 50px;
+    background-color: white; */
+    width: 400px;
+    height: 30px;
+    background-color: #ffffff;
+    /* border-bottom: 3px solid #073f55; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: Quantico;
+}
+
+#course-name {
+    
+}
