@@ -248,7 +248,11 @@ hr {
 }
 
 .courses-1 {
-    width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 600px;
     height: fit-content;
     margin-right: 40px;
     background-color: #A8D641;
@@ -256,7 +260,7 @@ hr {
 }
 
 .courses-2 {
-    width: 400px;
+    width: 600px;
     height: fit-content;
     background-color: #073f55;
     padding: 10px;
@@ -265,7 +269,7 @@ hr {
 #school-name {
     /* height: 50px;
     background-color: white; */
-    width: 400px;
+    width: 600px;
     height: 30px;
     background-color: #ffffff;
     /* border-bottom: 3px solid #073f55; */
