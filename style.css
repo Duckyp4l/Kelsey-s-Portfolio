@@ -3,7 +3,7 @@ body {
     margin: 0;
     padding: 0;
     background-color: #ffffff;
-    opacity: 0.8;
+    /* opacity: 0.8; */
     background-image: radial-gradient(#7CC6E4 0.8px, #ffffff 0.8px);
     background-size: 16px 16px;
     /* z-index: -1; */
@@ -211,6 +211,7 @@ hr {
     /* text-indent: 20px; */
     padding: 20px;
     font-family: Quantico;
+    font-size: 40px;
 }
 
 /* STUDIES SECTION */
@@ -290,18 +291,26 @@ hr {
 
 .image-slider {
     position: relative;
-    width: 450px;
-    height: 500px;
+    width: 50%;
+    height: 240px;
+    z-index: 10;
 }
 
 .slide {
     width: 100%;
     position: absolute;
+    clip-path: circle(0% at 0 50%);
+    transition: 2s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .slide img {
     width: 100%;
     border-radius: 15px;
+    width: 80%;
+    height: 80%;
 }
 
 .slide-text {
@@ -320,17 +329,19 @@ hr {
 }
 
 .slider-btn.active {
-    background-color: gold;
+    background-color: rgb(218, 31, 149);
 }
 
 .slide-text h2 {
-    font-size: 30px;
+    width: 150px;
+    height: auto;
+    font-size: 20px;
     padding: 0;
     margin: 0;
 }
 
 .slide-text p {
-    font-size: 15px;
+    font-size: 10px;
     padding: 0;
     margin: 0;
 }
@@ -338,36 +349,16 @@ hr {
 .navigation {
     position: absolute;
     display: flex;
-    bottom: 30px;
+    /* bottom: 30px; */
     left: 50%;
     transform: translateX(-50%);
 }
 
 .slider-btn {
-    background-color: rgb(151, 151, 151);
+    background-color: rgb(109, 184, 221);
     width: 12px;
     height: 12px;
     border-radius: 50%;
     cursor: pointer;
     margin: 0 5px;
-}
-
-.slide.active {
-    clip-path: circle(150% at 0 50%);
-    transition: 2s;
-    transition-property: clip-path;
-}
-
-.slider-btn.active {
-    background-color: rgb(38, 70, 83);
-}
-
-.slide.active {
-    clip-path: circle(150% at 0 50%);
-    transition: 2s;
-    transition-property: clip-path;
-}
-
-.slider-btn.active {
-    background-color: rgb(38, 70, 83);
 }
